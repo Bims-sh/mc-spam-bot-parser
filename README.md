@@ -30,7 +30,7 @@ cuute;45.xxx.xxx.xxx
 Note: If you want to save the output, it can be easily done by using the `>` operator as shown below.
 
 ```bash
-./log_parser.sh ./logs/latest.log -u > output.csv
+./spam_bot_parser.sh ./logs/latest.log -u > output.csv
 ```
 
 ## License
