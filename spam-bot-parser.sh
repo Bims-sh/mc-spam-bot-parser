@@ -31,7 +31,7 @@ done
 # i love regex!
 filter_pattern=".*id=<null>.*"
 name_pattern="name=([[:alnum:]]+)"
-ip_pattern="/([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+)"
+ip_pattern="([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+)"
 # actually, i hate it with every fiber of my being...
 
 if [ -z "$log_file_path" ]; then
